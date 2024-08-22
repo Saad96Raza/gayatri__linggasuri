@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+.line__1,
+.line__2,
+.line__3 {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  border: 1px solid #CCCCCC;
+}
+
+.line__1 {
+  left: 25%;
+}
+
+.line__2 {
+  left: 50%;
+}
+
+.line__3 {
+  left: 75%;
+}
+
+@font-face {
+  font-family: "hass";
+  src: url("/NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
+}
+@font-face {
+  font-family: "cinzel";
+  src: url("/NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
+}
+header {
+  height: 100px;
+  width: 100%;
+}
+
+.nav__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.nav__links {
+  font-family: "hass";
+  list-style-type: none;
+  font-size: 12px;
+  text-transform: uppercase;
+  position: relative;
+  width: 100%;
+  text-align: right;
+}
+
+.nav__links a {
+  color: #171717;
+  text-decoration: none;
+}
+
+.nav__links:nth-child(1) {
+  left: 1.4%;
+}
+
+.nav__links:nth-child(2) {
+  left: 5.1%;
+}
+
+.nav__links:nth-child(3) {
+  left: 6.5%;
+}
+
+.hamburger {
+  display: none;
+}
+
+.contact__envelope {
+  position: relative;
+  text-align: right;
+}
+
+.contact__envelope svg {
+  position: relative !important;
+}
+
+/*# sourceMappingURL=/style.ff1c4cab.css.map */
