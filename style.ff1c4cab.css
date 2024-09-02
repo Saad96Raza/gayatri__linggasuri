@@ -34,11 +34,11 @@ body {
 
 @font-face {
   font-family: "hass";
-  src: url("/NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
+  src: url("NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
 }
 @font-face {
   font-family: "cinzel";
-  src: url("/NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
+  src: url("NeueHaasDisplayRoman.df288e44.ttf") format("truetype");
 }
 header {
   height: 100px;
